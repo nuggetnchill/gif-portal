@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
 .App {
   height: 100vh;
-  background-color: #1a202c;
+  background-color: #302b44;
   overflow: scroll;
   text-align: center;
+  font-family: 'Dongle', sans-serif;
+  line-height: 2rem;
 }
 
 .container {
@@ -22,13 +26,13 @@
 
 .header {
   margin: 0;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: bold;
   color: white;
 }
 
 .sub-text {
-  font-size: 25px;
+  font-size: 2rem;
   color: white;
 }
 
@@ -47,7 +51,7 @@
   padding-right: 40px;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
@@ -59,7 +63,7 @@
 }
 
 .submit-gif-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #21884c, #07a9e9);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
@@ -83,13 +87,13 @@
 
 .footer-text {
   color: white;
-  font-size: 16px;
+  font-size:12px;
   font-weight: bold;
 }
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1.5rem;
   justify-items: center;
   margin: 0;
@@ -105,8 +109,8 @@
 }
 
 .gif-item img {
-  width: 100%;
-  height: 300px;
+  height: 200px;
+  width: auto;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -117,7 +121,7 @@
   padding: 10px;
   width: 50%;
   height: 60px;
-  font-size: 16px;
+  font-size: 20px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.25);
   border: none;
@@ -127,4 +131,10 @@
 
 .connected-container button {
   height: 50px;
+}
+
+.submit-addy{
+  font-size: 22px;
+  font-weight: 600;
+  color: #cecece;
 }
