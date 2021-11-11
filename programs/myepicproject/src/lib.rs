@@ -19,8 +19,7 @@ pub mod myepicproject {
       let item = ItemStruct {
           gif_link: gif_link.to_string(),
           user_address: *base_account.to_account_info().key
-//        add votes here
-//        votes: 0,
+          votes: 0,
       };
 //    Add "item" to gif_list Vec
       base_account.gif_list.push(item);
